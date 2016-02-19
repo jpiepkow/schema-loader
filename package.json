@@ -1,0 +1,15 @@
+                  {
+                    "name": "schema-loader",
+                    "version": "1.0.0",
+                    "description": "A schema loader that takes into account file name and directory structure when registering and getting schemas",
+                    "main": "index.js",
+                    "scripts": {
+                      "test": "echo \"Error: no test specified\" && exit 1"
+                    },
+                    "keywords": [
+                      "service",
+                      "locator"
+                    ],
+                    "author": "jordan piepkow",
+                    "license": "ISC"
+                  }
