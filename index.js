@@ -27,7 +27,7 @@ module.exports = () => {
         var newPath =path.resolve(process.cwd(), relPath);
         require("fs").readdirSync(newPath).forEach(function(file) {
             var fileName = file.split('.')[0];
-            var temp = require(`${relPath}/${file}`);
+            var temp = require(`${newPath}/${file}`);
             dependencies[fileName] = {};
             dependencies[fileName].orig = temp[fileName];
             dependencies[fileName].parent = temp
